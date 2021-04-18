@@ -1,0 +1,575 @@
+/*=================================================================
+                            Common code start
+ =================================================================*/
+ *{
+    margin:0;
+    padding:0;
+
+}
+body{
+    font-family: 'Titillium Web', sans-serif;;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: #eb7d4b5e;
+}
+
+ /*=================================================================
+                           header start
+ =================================================================*/
+ 
+ #top-section{
+    width: 900px;
+    height: 400px;
+    margin: auto;
+    background: #87509C;
+    padding-bottom: 80px;
+ }
+ .container {
+    width: 700px;
+    margin: auto;
+}
+
+.menu .logo {
+    width: 200px;
+    float: left;
+}
+
+.menu {
+    overflow: hidden;
+    padding-top: 22px;
+}
+
+.menu .nav {
+    float: right;
+    margin-top: 10px;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 16px;
+}
+
+.nav ul {
+    margin-top: 6px;
+    padding: 0;
+}
+
+.nav ul li a{
+    color: #FFFFFF;
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 1s;
+}
+.nav ul li a:hover{
+    background: #643A79;
+}
+
+.hero_aria {
+    margin-top: 100px;
+}
+
+.hero_aria h1 {
+    padding-bottom: 30px;
+    color: #FFFFFF;
+    width: 600px;
+    text-align: center;
+    font-size: 28px;
+    margin: auto;
+}
+.hero_aria span{
+    color: #fff;
+    background: #EB7D4B;
+    display: block;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    margin: auto;
+    padding: 9px 10px;
+    border-radius: 5px;
+    border-bottom: 5px solid #C86A40;
+    transition: 1s;
+}
+.hero_aria span:hover{
+    box-shadow: 1px 1px 1px 1px #C86A40;
+    background: #ff5100;
+    border-bottom: 5px solid #ff5100;
+}
+
+ /*=================================================================
+                           service_section start
+ =================================================================*/
+ #service_section{
+    width: 900px;
+    margin: auto;
+    background: #17C2A4;
+ }
+ #service_section .container h1 {
+    color: #fff;
+    padding-top: 80px;
+    text-align: center;
+    font-size: 30px;
+}
+.border {
+    width: 50px;
+    height: 5px;
+    background: #14A58C;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+section#service_section .top_p {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+
+#service_section .boxes {
+    
+    overflow: hidden;
+}
+.box1, .box2, .box3,.box4{
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    float: left;
+}
+section#service_section .boxes h2{
+    font-size: 15px;
+}
+section#service_section .boxes p {
+    font-size: 11px;
+    padding-bottom: 80px;
+}
+/*=================================================================
+                           Team_section start
+ =================================================================*/
+#team_section{
+    width: 900px;
+    margin: auto;
+    background: #E7F1F8;
+    padding-bottom: 80px;
+}
+#team_section .container h1 {
+    color: #3C4761;
+    padding-top: 80px;
+    text-align: center;
+    font-size: 30px;
+}
+#team_section  .container .border2 {
+    width: 50px;
+    height: 5px;
+    background: #C8D9E5;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+#team_section  .container .top_p {
+    color: #878787;
+    text-align: center;
+    font-size: 14px;
+}
+#team_section  .container .TEam_member {
+    
+    overflow: hidden;
+}
+.Meember1, .Meember2, .Meember3,.Meember4{
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    float: left;
+}
+#team_section  .container .TEam_member .memver_img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid #000;
+    margin: auto;
+}
+
+#team_section  .container .TEam_member h2{
+    color: #27283D;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: -4px;
+    margin-top: 8px;
+}
+#team_section .container .TEam_member span {
+    color: #27283D;
+    font-size: 12px;
+}
+#team_section .container .TEam_member p{
+    color: #27283D;
+    font-size: 14px;
+    padding: 15px 0px;
+    padding-bottom: 10px;
+}
+.social_icon .fab, .fas{
+    color: #fff;
+    background: #BDD1DF;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 1s;
+}
+.social_icon .fa-facebook:hover{
+    background: #3b5998;
+}
+.social_icon .fa-twitter:hover{
+    background: #00acee;
+}
+.social_icon .fa-linkedin-in:hover{
+    background: #0077b5;
+}
+.social_icon .fa-envelope:hover{
+    background: #EA4335;
+}
+/*=================================================================
+                           skills_section start
+ =================================================================*/
+ #skills_section{
+    width: 900px;
+    margin: auto;
+    background: #fff;
+    padding-bottom: 80px;
+}
+#skills_section .container h1 {
+    color: #3C4761;
+    padding-top: 80px;
+    text-align: center;
+    font-size: 30px;
+}
+#skills_section  .container .border3 {
+    width: 50px;
+    height: 5px;
+    background: #C8D9E5;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+#skills_section  .container .top_p {
+    color: #878787;
+    text-align: center;
+    font-size: 15px;
+}
+#skills_section  .container .skills {
+    
+    overflow: hidden;
+}
+.skills1, .skills2, .skills3,.skills4{
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    float: left;
+}
+#skills_section .container .skills h2 {
+    color: #27283D;
+    font-size: 20px;
+}
+/*=================================================================
+                           portfollio_section start
+ =================================================================*/
+ #portfollio_section{
+    width: 900px;
+    margin: auto;
+    background: #FFDD99;
+    padding-bottom: 80px;
+}
+#portfollio_section .container h1 {
+    color: #3C4761;
+    padding-top: 80px;
+    text-align: center;
+    font-size: 30px;
+}
+#portfollio_section  .container
+ .border4 {
+    width: 50px;
+    height: 5px;
+    background: #E5C37F;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+#portfollio_section  .container
+ .top_p {
+    color: #3C4761;
+    text-align: center;
+    font-size: 15px;
+}
+#portfollio_section  .container 
+.botton_group{
+    margin-top: 25px;
+    display: block;
+    text-align: center;
+}
+#portfollio_section  .container
+ .botton_group span{
+    color: #393939;
+    background: #EBC985;
+    padding: 5px 20px;
+    margin: 0px 5px;
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 30px;
+    
+}
+#portfollio_section  .container
+ .botton_group span:hover{
+    background: #fff;
+    border-radius: 0px;
+}
+
+
+#portfollio_section  .container 
+.portfolio_Image{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 50px;
+}
+#portfollio_section  .container
+ .portfolio_Image .first_image{
+    width: 50%;
+    height: 250px;
+    float: left;
+    text-align: center;
+    color: #46443F;
+}
+#portfollio_section  .container
+ .portfolio_Image .first_image img{
+     width: 100%;
+ }
+#portfollio_section  .container
+ .portfolio_Image .secend_image{
+    width: 50%;
+    height: 250px;
+    float: left;
+    text-align: center;
+    color: #46443F;
+}
+#portfollio_section  .container
+ .portfolio_Image .secend_image img{
+     width: 100%;
+ }
+ .row2{
+     margin-top: 30px;
+ }
+ #portfollio_section  .container .botton span{
+    color: #fff;
+    background: #17C2A4;
+    display: block;
+    width: 160px;
+    text-align: center;
+    cursor: pointer;
+    margin: 50px auto;
+    padding: 9px 10px;
+    border-radius: 5px;
+    border-bottom: 5px solid #14A58C;
+    transition: 1s;
+}
+#portfollio_section  .container .botton span:hover{
+    background: #14A58C;
+}
+/*=================================================================
+                           About_Section start
+ =================================================================*/
+ #About_Section{
+    width: 900px;
+    margin: auto;
+    background: #D74680;
+    padding-bottom: 80px;
+    overflow: hidden;
+}
+#About_Section .container h1 {
+    color: #fff;
+    padding-top: 80px;
+    text-align: center;
+    font-size: 30px;
+}
+#About_Section  .container
+ .border5 {
+    width: 50px;
+    height: 5px;
+    background: #B73C6D;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+#About_Section  .container
+ .top_p {
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+}
+#About_Section  .container
+ .clients_ratting{
+    width: 50%;
+    float: left;
+    margin-top: 70px;
+}
+ #About_Section  .container
+ .clients_ratting .image{
+    width: 100px; 
+    height: 100px;  
+    border: 4px solid #999; 
+    border-radius: 50%; 
+    overflow: hidden; 
+    float: left; 
+    margin-right: 6px;
+ }
+ #About_Section  .container
+ .clients_ratting .image img{ 
+    width: 108%;
+ }
+ #About_Section  .container
+ .clients_ratting .clint_comment{  
+    width: 58%;
+    float: left;
+ }
+ #About_Section  .container
+ .clients_ratting .clint_comment p{
+    color: #fff;
+    text-align: justify;
+ }
+ #About_Section  .container
+ .clients_ratting .clint_comment h5{
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: -10px;
+    margin-top: 36px;
+ }
+
+ #About_Section  .container
+ .clients_ratting .clint_comment span{
+    color: #ddd;
+    font-size: 12px;
+}
+/*=================================================================
+                           contact_section start
+ =================================================================*/
+ #contact_section{
+    width: 900px;
+    margin: auto;
+    background: #3C5499;
+    overflow: hidden;
+}
+#contact_section .container h1 {
+    color: #fff;
+    padding-top: 80px;
+    text-align: center;
+    font-size: 30px;
+}
+#contact_section  .container
+ .border6 {
+    width: 50px;
+    height: 5px;
+    background: #273A71;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+#contact_section  .container
+ .top_p {
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+}
+#contact_section  .container .from{
+    width: 100%;
+    margin-top: 45px;
+}
+#contact_section  .container .from .name{
+    width: 40%;
+    padding: 14px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background: #273A71;
+    margin-bottom: 30px;
+    margin-right: 108px;
+    outline: none;
+    box-sizing: border-box;
+    transition: 1s;
+}
+#contact_section  .container .from .email{
+    width: 40%;
+    padding: 14px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    background: #273A71;
+    color: #fff;
+    outline: none;
+}
+#contact_section  .container .from
+textarea{ 
+    background: #273A71;
+    font-size: 16px;
+    width: 100%;
+    border: none;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline: none;
+    color: #fff;
+}
+#contact_section  .container span{
+    color: #fff;
+    background:#30BAE7;
+    display: block;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    margin: 50px auto;
+    padding: 9px 10px;
+    border-radius: 5px;
+    border-bottom: 5px solid #299EC5;
+    transition: 1s;
+}
+#contact_section  .container span:hover{
+    background: #299EC5;
+}
+
+
+/*=================================================================
+                           contact_section start
+ =================================================================*/
+ #footer_Section{
+    width: 900px;
+    margin: auto;
+    background: #344B8E;
+    padding: 15px;
+    box-sizing: border-box;
+}
+ul.ul{
+    list-style: none;
+}
+.li{
+    display: inline-block;
+    padding: 20px;
+}
+ul.ul li a{
+    color: #fff;
+    font-size: 16px;
+}
